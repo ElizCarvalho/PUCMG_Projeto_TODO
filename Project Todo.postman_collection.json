@@ -1,0 +1,105 @@
+{
+	"info": {
+		"_postman_id": "df6e9d73-3b38-4cc6-8b46-820c5af16629",
+		"name": "Project Todo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/todos/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"1 - XPTO\",\r\n    \"description\": \"Teste 1 XPTO\",\r\n    \"finished\": false\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/todos/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"todos",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:3000/todos/",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"1 - XPTO\",\r\n    \"description\": \"Teste 1 XPTO\",\r\n    \"finished\": false\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/todos/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"todos",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "143"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"8f-vms44Iw8WmMRRVckMiOFZx7rsXM\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 25 Jun 2021 22:43:56 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"date\": \"2021-06-25T22:40:03.331Z\",\n        \"_id\": \"60d65c220133d76220bfe7c2\",\n        \"title\": \"1 - XPTO\",\n        \"description\": \"Teste 1 XPTO\",\n        \"finished\": false,\n        \"__v\": 0\n    }\n]"
+				}
+			]
+		}
+	]
+}
